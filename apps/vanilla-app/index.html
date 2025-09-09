@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo by vanilla JS</title>
+    <script defer type="module" src="main.js"></script>
+  </head>
+  <body>
+    <div class="todo todo__container">
+      <h1 class="todo__main-title">Список дел (JS)</h1>
+      <form id="todoSubmit" class="todo__form">
+        <input
+          type="text"
+          id="todoInput"
+          class="todo__input"
+          placeholder="Запишите дело"
+        />
+        <button id="btnForm" class="todo__btn" type="submit">
+          Добавить дело
+        </button>
+      </form>
+      <ul id="todoList" class="todo__list"></ul>
+    </div>
+  </body>
+</html>
